@@ -4,6 +4,12 @@
 	box-sizing: border-box;
 }
 
+p::-moz-selection { color: #fff}
+p::selection { color: #fff; }
+
+::-moz-selection { background: #E3672A; }
+::selection { background: #E3672A; }
+
 h1,h2,h3,h4,h5,h6, {
 	font-family: 'Amaranth', sans-serif;	
 }
@@ -12,16 +18,24 @@ p,a,span {
 	font-family: 'Open Sans', sans-serif;
 }
 
-header {
+.nav-link {
+  font-size: 1.25rem;
+}
+
+.nav-link:hover {
+  color: #E3672A !important;
+}
+
+#headerbgv {
   position: relative;
   background-color: black;
-  height: 75vh;
+  height: 100vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
 }
 
-header video {
+#headerbgv video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -36,12 +50,12 @@ header video {
   transform: translateX(-50%) translateY(-50%);
 }
 
-header .container {
+#headerbgv .container {
   position: relative;
   z-index: 2;
 }
 
-header .overlay {
+#headerbgv .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -52,15 +66,78 @@ header .overlay {
   z-index: 1;
 }
 
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url('../images/image.jpeg') black no-repeat center center scroll;
-  }
-  header video {
-    display: none;
-  }
+#title, #slogan, #enter {
+	display: none;
 }
 
-#headerbgv {
-	height: 100vh;
+#headerbgv img:hover {
+	opacity: 0.7;
 }
+
+@media (pointer: coarse) and (hover: none) {
+  #headerbgv {
+    background: url('../images/image.jpeg') black no-repeat center center scroll;
+  }
+  #headerbgv video {
+    display: none;
+  }
+  #headerbgv img {
+  	display: none;
+  }
+  #title, #slogan, #enter {
+  	display: block;
+  }
+
+}
+
+#homebg {
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), 
+  url('../images/Untended_Graves_-_02.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+#homebg2 {
+  height: 95vh;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(25, 25, 25, 0.5)), 
+  url('../images/darksouls-landscape.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+#brandlogo {
+  width: 310px;
+  height: 110px;
+}
+
+#bonfire, #lord-of-cinder {
+  width: 160px;
+  height: 160px;
+}
+
+
+
+footer {
+  background-color: #111111;
+  position: absolute;
+}
+
+.fa-html5, .fa-css3-alt {
+  font-size: 4rem;
+  color: #A8A8A8;
+}
+
+.fa-html5:hover, .fa-css3-alt:hover {
+  color: rgba(255, 255, 255, 0.8)
+}
+
+#particles-js {
+  width: 100%;
+  margin-bottom: -50vh;
+}
+

@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title>Landing Page</title>
+	<title>Dark Souls Remastered | Landing Page</title>
 
 	<!-- favicon -->
 	<link rel="icon" href="assets/images/dark-souls-bonfire.png">
@@ -16,6 +16,9 @@
 
 	<!-- animate css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+	<!-- hover css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/hover-min.css">
 
 	<!-- fontawesome icons -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -35,10 +38,11 @@
 	  </video>
 	  <div class="container h-100">
 	    <div class="d-flex text-center h-100">
-	      <div class="my-auto w-100 text-white">
-	        <h1 class="display-3">Dark Souls: Remastered</h1>
-	        <h2>Prepare To Die Edition</h2>
-	        <a class="btn btn-outline-light btn-lg my-3" href="#">Enter</a>
+	      <div id="hdrcontainer" class="my-auto w-100 text-white">
+	      	<a href="home.html" title="Enter the main website!"><img data-tilt data-tilt-axis="x" src="assets/images/dark-souls-2-png-1.png"></a>	      		
+	    	<h1 id="title" class="display-5">Dark Souls: Remastered</h1>
+	        <h3 id="slogan">Prepare To Die Edition</h3>
+	        <a id="enter" class="btn btn-outline-light btn-lg my-3" href="#">Enter</a>
 	      </div>
 	    </div>
 	  </div>
@@ -61,5 +65,9 @@
  -->
 
 
-</body>
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/js/vanilla-tilt.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	</body>
 </html>
