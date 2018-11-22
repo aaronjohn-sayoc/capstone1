@@ -36,7 +36,7 @@
 	<header id="homebg3" class="container-fluid m-0 p-0">
 
 		<header class="navbar navbar-expand-xl navbar-dark bg-transparent">
-			<a class="navbar-brand hvr-grow" href="home.html"><img id="brandlogo" src="assets/images/game-logo_103.png"></a>
+			<a class="navbar-brand hvr-grow" href="home.html"><img id="brandlogo" class="img-fluid" src="assets/images/game-logo_103.png"></a>
 
 			<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbar-nav">
 				<span class="navbar-toggler-icon"></span>
@@ -45,16 +45,16 @@
 			<div id="navbar-nav" class="collapse navbar-collapse">
 				<ul class="navbar-nav ml-auto text-center">
 					<li class="nav-item">
-						<a class="nav-link" href="https://www.bandainamcoent.com/games/ds-remastered" target="_blank">Buy</a>
+						<a class="nav-link" href="https://www.bandainamcoent.com/games/ds-remastered" target="_blank">BUY</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="game-info.html">Game Info</a>
+						<a class="nav-link" href="game-info.html">GAME INFO</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" href="media.html">Media</a>
+						<a class="nav-link active" href="media.html">MEDIA</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Blog</a>
+						<a class="nav-link" href="blog.html">BLOG</a>
 					</li>
 				</ul>
 			</div>  		
@@ -63,8 +63,8 @@
 		<section id="particles-js" class="container-fluid p-0 m-0">
 			<div id="particles-js" class="jumbotron jumbotron-fluid text-center bg-transparent">
 				<div  class="container text-white">
-					<a href="#" title="Blog"><img class="hvr-grow" id="estus" src="assets/images/drinkestus.gif"></a>
-					<h2 class="animated bounceIn">Gallery & Media</h2>
+					<a href="blog.html" title="Blog"><img class="hvr-grow" id="estus" src="assets/images/drinkestus.gif"></a>
+					<h2 class="animated bounceIn">GALLERY AND MEDIA</h2>
 					<div class="container p-1 animated bounceIn">
 						<p id="gamedesc"">Delve into the dark and twisted world of DARK SOULS anytime, anywhere!</p>
 					</div>
@@ -76,38 +76,47 @@
 
 	<section class="container-fluid p-0 m-0">
 		<div class="row">
+			<div class="col col-12 mx-0 px-0 bg-primary">
+				<div class="embed-responsive embed-responsive-21by9">
+	  			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sieEyNAAgF4"allowfullscreen></iframe>
+				</div>			
+			</div>
+	</section>
+
+	<section class="container-fluid p-0 m-0">
+		<div class="row">
 		    <div id="myimages" class="col-md-12">
 		        <div class="row">
-		            <a href="assets/images/dark-souls.jpg?image=1" data-toggle="lightbox" data-gallery="darksouls-gallery" class="col-sm-4 mx-0 px-0">
-		                <img src="assets/images/dark-souls.jpg?image=1" class="img-fluid hvr-grow">
+		            <a href="assets/images/dark-souls.jpg?image=1" data-toggle="lightbox" data-gallery="darksouls-gallery" data-title="Bonfire" class="col-sm-4 mx-0 px-0 animated fadeIn wow">
+		                <img src="assets/images/dark-souls.jpg?image=1" class="img-fluid hvr-grow animated fadeIn wow">
 		            </a>
-		            <a href="assets/images/image.jpeg?image=2" data-toggle="lightbox" data-gallery="darksouls-gallery" class="col-sm-4 mx-0 px-0">
-		                <img src="assets/images/image.jpeg?image=2" class="img-fluid hvr-grow">
+		            <a href="assets/images/image.jpeg?image=2" data-toggle="lightbox" data-gallery="darksouls-gallery" data-title="Firelink Shrine" class="col-sm-4 mx-0 px-0">
+		                <img src="assets/images/image.jpeg?image=2" class="img-fluid hvr-grow animated fadeIn wow">
 		            </a>
-		            <a href="assets/images/darksoulsmirrorknight.jpg?image=3" data-toggle="lightbox" data-gallery="darksouls-gallery" class="col-sm-4 mx-0 px-0">
-		                <img src="assets/images/darksoulsmirrorknight.jpg?image=3" class="img-fluid hvr-grow">
-		            </a>
-		        </div>
-		        <div class="row">
-		            <a href="assets/images/dark-souls-archer.jpg?image=4" data-toggle="lightbox" data-gallery="darksouls-gallery" class="col-sm-4 mx-0 px-0">
-		                <img src="assets/images/dark-souls-archer.jpg?image=4" class="img-fluid hvr-grow">
-		            </a>
-		            <a href="assets/images/dark-souls-watchers.jpg?image=5" data-toggle="lightbox" data-gallery="darksouls-gallery" class="col-sm-4 mx-0 px-0">
-		                <img src="assets/images/dark-souls-watchers.jpg?image=5" class="img-fluid hvr-grow">
-		            </a>
-		            <a href="assets/images/dark-souls-abyss.jpg?image=6" data-toggle="lightbox" data-gallery="darksouls-gallery" class="col-sm-4 mx-0 px-0">
-		                <img src="assets/images/dark-souls-abyss.jpg?image=6" class="img-fluid hvr-grow">
+		            <a href="assets/images/darksoulsmirrorknight.jpg?image=3" data-toggle="lightbox" data-gallery="darksouls-gallery" data-title="Mirror Knight" class="col-sm-4 mx-0 px-0">
+		                <img src="assets/images/darksoulsmirrorknight.jpg?image=3" class="img-fluid hvr-grow animated fadeIn wow">
 		            </a>
 		        </div>
 		        <div class="row">
-		            <a href="assets/images/dark-souls-gundyr-fight.jpg?image=7" data-toggle="lightbox" data-gallery="darksouls-gallery" class="col-sm-4 mx-0 px-0">
-		                <img src="assets/images/dark-souls-gundyr-fight.jpg?image=7" class="img-fluid hvr-grow">
+		            <a href="assets/images/dark-souls-archer.jpg?image=4" data-toggle="lightbox" data-gallery="darksouls-gallery" data-title="Catacombs" class="col-sm-4 mx-0 px-0 animated fadeIn wow">
+		                <img src="assets/images/dark-souls-archer.jpg?image=4" class="img-fluid hvr-grow animated fadeIn wow">
 		            </a>
-		            <a href="assets/images/dark-souls-wander-landscape.jpg?image=8" data-toggle="lightbox" data-gallery="darksouls-gallery" class="col-sm-4 mx-0 px-0">
-		                <img src="assets/images/dark-souls-wander-landscape.jpg?image=8" class="img-fluid hvr-grow">
+		            <a href="assets/images/dark-souls-watchers.jpg?image=5" data-toggle="lightbox" data-gallery="darksouls-gallery" data-title="Painted World of Ariandel" class="col-sm-4 mx-0 px-0 animated fadeIn wow">
+		                <img src="assets/images/dark-souls-watchers.jpg?image=5" class="img-fluid hvr-grow animated fadeIn wow">
 		            </a>
-		            <a href="assets/images/darksouls-sorcerer.jpg?image=9" data-toggle="lightbox" data-gallery="darksouls-gallery" class="col-sm-4 mx-0 px-0">
-		                <img src="assets/images/darksouls-sorcerer.jpg?image=9" class="img-fluid hvr-grow">
+		            <a href="assets/images/dark-souls-abyss.jpg?image=6" data-toggle="lightbox" data-gallery="darksouls-gallery" data-title="High Wall of Lothric" class="col-sm-4 mx-0 px-0 animated fadeIn wow">
+		                <img src="assets/images/dark-souls-abyss.jpg?image=6" class="img-fluid hvr-grow animated fadeIn wow">
+		            </a>
+		        </div>
+		        <div class="row">
+		            <a href="assets/images/dark-souls-gundyr-fight.jpg?image=7" data-toggle="lightbox" data-gallery="darksouls-gallery" data-title="Iudex Gundyr" class="col-sm-4 mx-0 px-0 animated fadeIn wow">
+		                <img src="assets/images/dark-souls-gundyr-fight.jpg?image=7" class="img-fluid hvr-grow animated fadeIn wow">
+		            </a>
+		            <a href="assets/images/dark-souls-wander-landscape.jpg?image=8" data-toggle="lightbox" data-gallery="darksouls-gallery" data-title="The Ringed City" class="col-sm-4 mx-0 px-0 animated fadeIn wow">
+		                <img src="assets/images/dark-souls-wander-landscape.jpg?image=8" class="img-fluid hvr-grow animated fadeIn wow">
+		            </a>
+		            <a href="assets/images/darksouls-sorcerer.jpg?image=9" data-toggle="lightbox" data-gallery="darksouls-gallery" data-title="Cemetery of Ash" class="col-sm-4 mx-0 px-0 animated fadeIn wow">
+		                <img src="assets/images/darksouls-sorcerer.jpg?image=9" class="img-fluid hvr-grow animated fadeIn wow">
 		            </a>
 		        </div>
 		    </div>

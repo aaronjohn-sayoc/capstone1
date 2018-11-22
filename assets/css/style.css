@@ -11,32 +11,22 @@ html, body {
   overflow-x: hidden !important; 
 }
 
-@media screen and (max-width: 1024px) {
-    body {
-    overflow-x: hidden !important;
-    }
-    .container {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-    }
-    .card-text {
-      font-size: 1.15rem;
-    }
-}
-
-
-
 p::-moz-selection { color: #fff}
 p::selection { color: #fff; }
 
 ::-moz-selection { background: #E3672A; }
 ::selection { background: #E3672A; }
 
-h1,h2,h3,h4,h5,h6, {
-	font-family: 'Amaranth', sans-serif;	
+
+
+h1,h2,h3,h4,h5,h6, header a {
+	font-family: adobe-garamond-pro, serif;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 2px;
 }
 
-p,a,span {
+p,span {
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -92,6 +82,10 @@ p,a,span {
 	display: none;
 }
 
+#intro, #genre {
+  font-size: 29px;
+}
+
 #headerbgv img:hover {
 	opacity: 0.7;
 }
@@ -110,10 +104,15 @@ p,a,span {
   	display: block;
   }
 
+
 }
 
 .card-img-overlay {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+}
+
+.card-body a {
+  text-decoration-color: white;
 }
 
 #homebg {
@@ -157,11 +156,11 @@ p,a,span {
 }
 
 #brandlogo {
-  width: 310px;
-  height: 110px;
+  width: 325px;
+  height: 125px;
 }
 
-#bonfire, #lord-of-cinder, #solaire, #artorias, #skull, #sif, #estus{
+#bonfire, #lord-of-cinder, #solaire, #artorias, #skull, #sif, #estus, #guts{
   width: 160px;
   height: 160px;
 }
@@ -171,10 +170,9 @@ p,a,span {
 }
 
 #artorias, #ornstein, #skull {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
-
 
 
 footer {
@@ -203,6 +201,29 @@ footer {
   background-color: #101010 !important; 
 }
 
+.btn, .form-control {
+  border-radius: 0 !important;
+
+}
+
+
+.form-control {
+  background-color: transparent !important;
+  border: 1px solid white;
+  color: white;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  background-color: transparent !important;
+  border: 2px solid white;
+  color: white;
+}
+
+
+
+
 .bg-primary {
   background-color: #101010 !important;
 }
@@ -219,10 +240,100 @@ footer {
   font-size: 2.0rem;
 }
 
+.display-8 {
+  font-size: 1.75rem;
+}
+
+
 .modal-body {
   padding: 0 !important;
 }
 
 .ekko-lightbox-nav-overlay > a:hover {
   color: white;
+}
+
+.modal-header {
+  background-color: rgba(0,0,0,0.6)
+  border: 0 !important;
+  border-style: none;
+}
+
+.modal-content {
+  border: 0 !important;
+}
+
+.modal-content {
+  border-radius: 0 !important;
+  background-color: rgba(0,0,0,0.6)
+}
+
+.modal-title {
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.close {
+  color: white;
+}
+
+.close:hover {
+  color: white !important;
+}
+
+/*.card-img-top {
+  width: 50%;
+  height: 50%;
+}
+*/
+.card-footer {
+  border: 0;
+}
+
+
+
+
+/*media queries*/
+
+@media screen and (max-width: 1024px) {
+    body {
+    overflow-x: hidden !important;
+    }
+    .container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    }
+    .card-text {
+      font-size: 1.15rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #homebg, #homebg2, #homebg3, #homebg4 {
+    height: 80vh;
+  }
+
+  #particles-js {
+    margin-top: 15vh !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #homebg, #homebg2, #homebg3, #homebg4 {
+    height: 85vh;
+  }
+
+  #particles-js {
+    margin-top: 15vh !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #homebg, #homebg2, #homebg3, #homebg4 {
+    height: 100vh;
+  }
 }
