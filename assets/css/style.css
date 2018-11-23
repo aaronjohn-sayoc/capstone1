@@ -332,6 +332,7 @@ footer {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   #homebg, #homebg2, #homebg3, #homebg4 {
     height: 80vh;
+    background-attachment: scroll;
   }
 
   #particles-js {
@@ -342,6 +343,7 @@ footer {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   #homebg, #homebg2, #homebg3, #homebg4 {
     height: 85vh;
+    background-attachment: scroll;
   }
 
   #particles-js {
@@ -349,11 +351,13 @@ footer {
   }
   #subsbg {
     height: 45vh;
+    background-attachment: scroll;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 576px) {
   #homebg, #homebg2, #homebg3, #homebg4 {
     height: 100vh;
+    background-attachment: scroll;
   }
 }
