@@ -117,7 +117,7 @@ p,span {
 
 #homebg {
   height: 100vh;
-  max-width: 100%;
+  width: 100% !important;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), 
   url('../images/Untended_Graves_-_02.jpg');
@@ -129,7 +129,7 @@ p,span {
 
 #homebg2 {
   height: 100vh;
-  max-width: 100%;
+  width: 100% !important;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(25, 25, 25, 0.5)), 
   url('../images/dark-souls-remastered-4k-3x.jpg');
@@ -140,7 +140,7 @@ p,span {
 
 #homebg3 {
   height: 100vh;
-  max-width: 100%;
+  width: 100% !important;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(25, 25, 25, 0.5)), 
   url('../images/dark-souls-anorlondo.jpg');
@@ -152,7 +152,7 @@ p,span {
 
 #homebg4 {
   height: 100vh;
-  max-width: 100%;
+  width: 100% !important;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(25, 25, 25, 0.5)), 
   url('../images/darksouls-room.jpg');
@@ -164,7 +164,7 @@ p,span {
 
 #subsbg {
   height: 60vh;
-  max-width: 100%;
+  width: 100% !important;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(25, 25, 25, 0.8)), 
   url('../images/darksouls-room2.jpg');
