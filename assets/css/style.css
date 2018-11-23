@@ -190,12 +190,12 @@ footer {
   position: absolute;
 }
 
-.fa-html5, .fa-css3-alt {
+.fa-xbox, .fa-playstation, .fa-steam, .fa-microsoft {
   font-size: 4rem;
   color: #A8A8A8;
 }
 
-.fa-html5:hover, .fa-css3-alt:hover {
+.fa-xbox:hover, .fa-playstation:hover, .fa-steam:hover, .fa-microsoft:hover {
   color: rgba(255, 255, 255, 0.8)
 }
 
