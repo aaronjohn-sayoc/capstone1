@@ -193,11 +193,11 @@ footer {
 .fa-xbox, .fa-playstation, .fa-steam, .fa-microsoft, .fa-nintendo-switch {
   font-size: 4rem;
   color: #A8A8A8;
-}
+} /*brands*/
 
 .fa-xbox:hover, .fa-playstation:hover, .fa-steam:hover, .fa-microsoft:hover, .fa-nintendo-switch:hover {
   color: rgba(255, 255, 255, 0.8)
-}
+} /*brands hover*/
 
 #particles-js {
   width: 100%;
